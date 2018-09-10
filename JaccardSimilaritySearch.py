@@ -220,6 +220,6 @@ class MinHashingLSH:
         
         if self._verbose > 0:
             print('\nLocality Sensitive Hashing Completed.',
-                  '\n' + str(len(self.similar_items)) + ' Similar Pairs of Items Found.',
+                  '\n' + str(len(self.similar_items)) + ' Similar Pairs Found.',
                   sep='\n')
         
