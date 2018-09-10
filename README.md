@@ -4,7 +4,10 @@ In certain applications such as document deduplication, finding similar users, e
 
 A solution is to combine two techniques, namely, MinHashing and Locality Sensitive Hashing (LSH). In order to apply them, it is useful to represent the sets in a term-incidence matrix. For a collection of documents, the term-incidence matrix contains in its rows the k-shingles or terms of the document collection, and the columns correspond to the actual documents. 
 
-MinHashing represents this large and sparse matrix as a "signature", a new smaller matrix, that can easily fit into memory. The signature matrix has the property that for any pair of sets, the probability that the corresponding columns are identical is equal to the Jaccard similarity. LSH is then used to process this signature matrix in a fast way in order to search for candidate sets that might be similar. Finally, the Jaccard similarity of those candidate sets is calculated. 
+MinHashing represents this large and sparse matrix as a "signature", a new smaller matrix, that can easily fit into memory. The signature matrix has the property that for any pair of sets, the probability that the corresponding columns are identical is equal to the Jaccard similarity. LSH is then used to process this signature matrix in a fast way in order to search for candidate sets that might be similar. Finally, the Jaccard similarity of those candidate sets is calculated. For a detailed explanation of MinHashing and LSH you can refer to the book [Mining of Massive Datasets](http://www.mmds.org/).
+
+## How to use
+
 
 
 
