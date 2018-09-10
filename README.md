@@ -8,7 +8,13 @@ MinHashing represents this large and sparse matrix as a "signature", a new small
 
 ## How to use
 
-Refer to the ```jss_example.py``` for a short example.
+Requirements: ```numpy```
 
+Clone the repository:
+```git clone https://github.com/micts/jss.git```
+
+## Examples
+
+Refer to the ```jss_example.py``` for a short example.
 
 
