@@ -19,6 +19,6 @@ Refer to the ```jss_example.py``` for a short example.
 
 ## TO DO
 
-* Check compatibility with python2.X
-* Complete example in ```jss_example.py```
+* Check compatibility with python 2.X
+* Complete the example in ```jss_example.py```
 
