@@ -1,2 +1,3 @@
-# jss
-Fast Jaccard similarity search for abstract sets (documents, products, users, etc.) using MinHashing and Locality Sensitve Hashing
+# jss - A fast implementation of MinHashing and Locality Sensitive Hashing to search for similar objects based on Jaccard similarity
+
+
