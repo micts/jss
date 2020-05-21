@@ -17,8 +17,3 @@ Clone the repository:
 
 Refer to the ```jss_example.py``` for a short example.
 
-## TO DO
-
-* Check compatibility with python 2.x
-* Complete the example in ```jss_example.py```
-
